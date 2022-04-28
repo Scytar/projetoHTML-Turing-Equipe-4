@@ -2,4 +2,4 @@ This is a HTML website project for Alpha EdTech's webdev course. Developed by Cl
 
 The Team were randomly assigned and are temporary, dedicated to this project only.
 
-The main subject of the website aren't defined yet. We plan to bring up suggestions and then vote.
+The main subject of the website isn't defined yet. We plan to bring up suggestions and then vote.
