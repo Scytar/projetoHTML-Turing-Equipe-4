@@ -8,3 +8,17 @@
     background-color: #03045e;
     font-weight: 800;
 }
+
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footerProduct{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
