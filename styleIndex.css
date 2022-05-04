@@ -18,17 +18,15 @@ body {
 }
 
 .logo {
-    width: 50px;
+    width: 38px;
     height: 35px;
     margin: 10px;
     margin-left: 55px;
-    border-radius: 15px;
-    border: 1px solid #d5f3f9;
 }
 
 nav {
     width: 400px;
-    margin-right: 35px;
+    padding-right: 35px;
     display: flex;
     justify-content: space-around;
 }
@@ -47,14 +45,14 @@ main {
     display: flex;
     justify-content: center;
     height: 100vh;
+    padding-top: 108px;
 }
 
 .conteudo {
     width: 70vw;
-    height: 75vh;
+    height: 470px;
     background-color: #0077b6;
     display: flex;
-    margin-top: 105px;
 }
 
 /*=============================== MAIN - ESQUERDA ===============================*/
@@ -138,7 +136,7 @@ main {
 #79d3f4
 */
 
-/*=============================== SECTION ===============================*/
+/*=============================== SECTION MIDDLE===============================*/
 
 .infoDump {
     width: 100vw;
@@ -146,7 +144,6 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
 }
 
 .infoDumpContainer {
@@ -166,7 +163,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
     font-weight: 500;
     font-family: 'Nunito', sans-serif;
@@ -204,29 +201,74 @@ main {
 
 footer {
     display: flex;
-    justify-content: center;
-    height: 90vh;
-    padding-bottom: 180px;
+    align-items: flex-end;
+    height: 470px;
+    width: 100vw;
 }
 
-footer .conteudo {
+.bottom-conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f0eafc;
-    height: 100%;
+    width: 100vw;
+    height: 400px;
 }
 
 .conteudo-maior {
     display: flex;
-    height: 90%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-.conteudo-maior .esquerda h1 {
-    color: #196c88;
+.conteudo-maior > .bottom-esquerda{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.conteudo-maior .esquerda p {
+.bottom-titulo {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-logo {
+    width: 120px;
+    height: 140px;
+    margin-right: 20px;
+}
+
+.bottom-titulo h1 {
+    font-size: 60px;
+    font-weight: 900;
+    width: 70%;
+    height: auto;
+    color: #237e9c;
+    padding: 0;
+    margin: 0;
+    padding-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 70px;
+    margin-bottom: 20px;
+    
+}
+
+.bottom-titulo p {
+    width: 400px;
     color: #196c88;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
@@ -234,12 +276,20 @@ footer .conteudo {
 
 /*=============================== FORMULÁRIO ===============================*/
 
+
+.bottom-direita {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
 fieldset {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 420px;   
     border: none;
+    margin-right: 90px;
 }
 
 input {
@@ -251,6 +301,8 @@ input {
     padding-left: 15px;
     color: #5c5c5c;
     width: 270px;
+    margin-top: 10px;
+    border:1px solid rgb(204, 204, 204);
 }
 
 .btn {
@@ -267,18 +319,36 @@ input {
     font-size: 12px;
     background-color: #076292;
     color: #d8e5fa;
+    border: none;
 }
+
+
+
+
+
+
 
 /*=============================== NAV FOOTER ===============================*/
 .strip-bottom {
     height: 50px;
-    width: 500px;
+    width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-top: 1px solid #e4e0ec;
+    justify-content: flex-end;
+    border-top: 1px solid #dbd5e9;
 }
 
 .strip-bottom .tagA {
     color: #196c88;
+}
+
+.social-media {
+    width: 150px;
+    margin: 0 20px 0 250px;
+}
+
+.social-media i {
+    font-size: 20px;
+    margin: 0 7px;
+    color: #0a537a;
 }
