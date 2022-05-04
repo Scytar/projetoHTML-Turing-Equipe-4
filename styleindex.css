@@ -1,7 +1,10 @@
 .profilePicture{
     height: 48px;
     width: 48px;
+    border: solid;
     border-radius: 50%;
+    border-width: 2px;
+    border-color: #0077B6;
 }
 
 .mainBtn{
@@ -16,9 +19,12 @@
 }
 
 .footerProduct{
+    padding: 18px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 10%;
+    background-color: #0077B6;
+    color: #d8e5fa;
 }
