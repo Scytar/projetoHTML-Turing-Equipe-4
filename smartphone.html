@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="styleindex.css">
-    <meta property="op:image" content="">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styleIndex.css">
+    <!-- <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styleIndex.css"> -->
+    <meta name="description" content="Um site de venda de produtos incríveis invisíveis">
+    
+    <meta property="op:url" content="https://scytar.github.io/projetoHTML-Turing-Equipe-4/index.html">
+    <meta property="og:type" content="website">
     <meta property="op:title" content="InvisiPhone - Alpha ED2022 Plus Pro">
-    <meta property="op:url" content="https://app.alphaedtech.org.br/">
     <meta property="op:description" content="O mais novo InvisiPhone Alpha ED2022 Plus Pro é perfeito para quem exige os mais altos padrões de qualidade quando o assunto é inovação. Mais que um smartphone, ele é um GeniusPhone.">
+    <meta property="op:image" content="https://scytar.github.io/projetoHTML-Turing-Equipe-4/imgs/logo.svg">
     <title>InvisiPhone - Alpha ED2022 Plus Pro</title>
+    <script src="https://kit.fontawesome.com/ca1dbf7656.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="strip-top">
+        <img class="logo" src="./imgs/logo-branco.png" alt="Logo InvisiTech">
         <nav>
-            <img class="logo" src="./imgs/blueocean.jpeg" alt="Logo InvisiTech">
             <a class="tagA" href="./index.html">Home</a>
             <a class="tagA" href="./smartphone.html">Smartphone</a>
             <a class="tagA" href=""></a>
             <a class="tagA" href=""></a>
+            <a class="tagA" href="./cama-elastica.html">Cama Elástica</a>
         </nav>
     </header>
     <!-- Produto Principal -->
@@ -45,10 +52,10 @@
         </section>
     </main>
     <!-- Avaliações -->
-    <section class="infoDump">
+    <section class="">
         <h2>Quem tem, aprova!</h2>
-        <div class="infoDumpContainer">
-            <article class="s-left">
+        <div class="reviewsRow">
+            <article class="reviewArticle">
                 <figure>
                     <img class="profilePicture" src="imgs/luhbarbalho.jpg" alt="Fulana, CEO da InvisiTech">
                 </figure>
@@ -59,7 +66,7 @@
                     - Fulana, CEO da InvisiTech
                 </p>
             </article>
-            <article class="s-mid">
+            <article class="reviewArticle">
                 <figure>
                     <img class="profilePicture" src="imgs/yanvictor.jpg" alt="Ciclano, Diretor Geral da InvisiTech">
                 </figure>
@@ -69,7 +76,7 @@
                 <p>
                     - Ciclano, Diretor Geral da InvisiTech
                 </p>
-            </article class="s-right">
+            </article class="reviewArticle">
             <article>
                 <figure>
                     <img class="profilePicture" src="imgs/felipebarbosa.jpg" alt="Beltrano, Gerente de Vendas da InvisiTech">
@@ -100,20 +107,21 @@
         </div>
     </section>
     <footer class="footerProduct">
-        <div class="logoFooter footerColumn">
-            <img src="./imgs/blueocean.jpeg" alt="Logo InvisiTech">
+        <div class="footerColumn">
+            <img class="logoFooter" src="./imgs/logo-branco.png" alt="Logo InvisiTech">
         </div>
         <div class="footerColumn">
             <a class="tagA" href="./index.html">Home</a>
             <a class="tagA" href="./smartphone.html">Smartphone</a>
             <a class="tagA" href=""></a>
             <a class="tagA" href=""></a>
+            <a class="tagA" href="./cama-elastica.html">Cama Elástica</a>
         </div>
         <div class="footerColumn">
-            <a class="tagA" href=""><img src="" alt="Icon YouTube">YouTube</a>
-            <a class="tagA" href=""><img src="" alt="Icon Facebook">Facebook</a>
-            <a class="tagA" href=""><img src="" alt="Icon Twitter">Twitter</a>
-            <a class="tagA" href=""><img src="" alt="Icon Instagram">Instagram</a>
+            <a class="tagA" href=""><img class="socialMedia" src="" alt="Icon YouTube">YouTube</a>
+            <a class="tagA" href=""><img class="socialMedia" src="" alt="Icon Facebook">Facebook</a>
+            <a class="tagA" href=""><img class="socialMedia" src="" alt="Icon Twitter">Twitter</a>
+            <a class="tagA" href=""><img class="socialMedia" src="" alt="Icon Instagram">Instagram</a>
         </div>
     </footer>
 </body>
