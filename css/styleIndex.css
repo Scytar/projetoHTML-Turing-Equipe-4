@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #0077b6;
+    background-color: #0d4b6d;
     text-decoration: none;
     position: fixed;
 }
@@ -45,13 +45,13 @@ main {
     display: flex;
     justify-content: center;
     height: 100vh;
-    padding-top: 108px;
+    padding-top: 80px;
 }
 
 .conteudo {
-    width: 70vw;
-    height: 470px;
-    background-color: #0077b6;
+    width: 75vw;
+    height: 520px;
+    background-color: #155a80;
     display: flex;
 }
 
@@ -114,7 +114,7 @@ main {
     margin-bottom: 8px;
     height: 300px;
     width: 200px;
-    box-shadow: -100px 55px #f0eafccc;
+    box-shadow: -80px 55px #d4cfdf94;
 }
 
 .direita p {
@@ -123,18 +123,9 @@ main {
     font-weight: 300;
     color: #076292;
     font-family: 'Montserrat', sans-serif;
-    margin-right: 120px;
+    margin-right: 90px;
 }
-/*
-#0077b6
-#d8e5fa
-#f0eafc
-#a9dcf7
-#91d7f5
-#61cef2
-#c0e1f9
-#79d3f4
-*/
+
 
 /*=============================== SECTION MIDDLE===============================*/
 
@@ -305,6 +296,10 @@ input {
     border:1px solid rgb(204, 204, 204);
 }
 
+input:focus {
+    outline: 0;
+}
+
 .btn {
     display: flex;
     justify-content: center;
@@ -317,15 +312,10 @@ input {
     margin-top: 15px;
     padding: 0;
     font-size: 12px;
-    background-color: #076292;
+    background-color: #0d4b6d;
     color: #d8e5fa;
     border: none;
 }
-
-
-
-
-
 
 
 /*=============================== NAV FOOTER ===============================*/
@@ -347,7 +337,7 @@ input {
     margin: 0 20px 0 250px;
 }
 
-.social-media i {
+.social-media .icon {
     font-size: 20px;
     margin: 0 7px;
     color: #0a537a;
