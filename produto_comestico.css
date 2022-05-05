@@ -1,0 +1,271 @@
+
+body {
+    background-color: #f0eafc;
+}
+
+p, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0d4b6d;
+}
+
+/*=============================== HEADER ===============================*/
+
+
+.strip-top {
+    height: 45px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d4b6d;
+    text-decoration: none;
+    position: fixed;
+}
+
+.logo {
+    width: 38px;
+    height: 35px;
+    margin: 10px;
+    margin-left: 55px;
+}
+
+nav {
+    width: 400px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tagA {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #d5f3f9;
+}
+
+
+/*=============================== MAIN ===============================*/
+
+
+/*
+#0077b6
+#d8e5fa
+#f0eafc
+#a9dcf7
+#91d7f5
+#61cef2
+#c0e1f9
+#79d3f4
+rgb(243, 157, 141)
+tomato
+*/
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.container {
+    width: 75vw;
+    height: 520px;
+    background-color: #d8e5fa;
+    display: flex;
+}
+
+/*=============================== MAIN-ESQUERDA ===============================*/
+
+.esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+}
+
+.main-photo img {
+    width: 80%;
+    height: 380px;
+    border-radius: 5px;
+}
+
+.bottom-photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.bottom-photos img{
+    width: 22%;
+    height: 70px;
+    border-radius: 5px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.bottom-photos img:nth-child(3) {
+    opacity: 1;
+}
+
+/*=============================== MAIN-DIREITA ===============================*/
+
+.direita {
+    width: 47%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 5px;
+}
+
+.direita h3 {
+    width: 100px;
+    font-family: 'Jura', sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 45px;
+}
+
+.avaliacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 54%;
+    height: 40px;
+}
+
+.avaliacao p {
+    padding-top: 3px;
+    color: rgb(248, 123, 101);
+    cursor: pointer;
+}
+
+
+.avaliacao .stars{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    color: rgb(247, 92, 20)
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    height: 160px;
+}
+
+.direita h4 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Josefin Slab', sans-serif;
+    color: rgb(248, 123, 101);
+}
+
+
+/*=============================== FORMULÁRIO ===============================*/
+
+fieldset {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 0;
+    margin-right: 20px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #0d4b6d;
+    background-color: rgb(175, 175, 175);
+}
+
+input:focus {
+    outline: 0;
+}
+
+.btn {
+    width: 145px;
+    background-color: rgb(247, 92, 20);
+    color: #f0f6ff;
+    font-size: 11px;
+}
+
+/*=============================== FOOTER ===============================*/
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    height: 180px;
+    width: 100vw;
+    background-color: #d8e5fa;
+}
+
+.bottom-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    width: 130px;
+    height: 140px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 140px;
+}
+.social-media .icon{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    font-size: 10px;
+    font-size: 25px;
+    margin: 0 7px;
+    color: #0a537a;
+    text-decoration: none;
+}
+
+.strip-bottom {
+    height: 180px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-logo {
+    width: 120px;
+    height: 140px;
+}
+
+.strip-bottom .tagA {
+    width: 150px;
+    color: #196c88;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
