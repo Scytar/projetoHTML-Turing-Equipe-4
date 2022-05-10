@@ -43,7 +43,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #03045e;
+    background-color: #0d4b6d;
     text-decoration: none;
     position: fixed;
 }
@@ -284,7 +284,7 @@ nav {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-color: #03045e;
+        background-color: #0d4b6d;
         gap: 10%;
         padding: 10vh 0 ;
     }
