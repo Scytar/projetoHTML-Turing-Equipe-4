@@ -43,7 +43,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #0077b6;
+    background-color: #0d4b6d;
     text-decoration: none;
     position: fixed;
 }
@@ -111,19 +111,20 @@ nav {
 }
 
 .mainDetails{
-    color: #0077b6;
+    color: #023e8a;
     display: flex;
     flex-direction: column;
     gap: 18px;
 }
 
 .productTitle{
-    color: #023e8a;
+    color: #03045e;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
 }
 
 .productRating{
+    color: rgb(247, 92, 20);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -133,6 +134,7 @@ nav {
 }
 
 .productPriceTag{
+    color: rgb(247, 92, 20);
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-size: 2rem;
@@ -164,7 +166,8 @@ nav {
     height: 200px;
     font-size: 2rem;
     font-weight: 600;
-    background-color: #023e8a;
+    background-color: rgb(247, 92, 20);
+    
     cursor: pointer;
 }
 
@@ -281,7 +284,7 @@ nav {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-color: #03045e;
+        background-color: #0d4b6d;
         gap: 10%;
         padding: 10vh 0 ;
     }
