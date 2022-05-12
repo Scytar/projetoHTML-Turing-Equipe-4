@@ -11,6 +11,7 @@
 #ade8f4
 #caf0f8 Almost White
 #d5f3f9 White
+#f0eafc Whiter
 */
 
 *{
@@ -19,7 +20,7 @@
 }
 
 body {
-    background-color: #d8e5fa;
+    background-color: #f0eafc;
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
@@ -69,15 +70,19 @@ nav {
     color: #d5f3f9;
 }
 
+.tagA:hover{
+    background-color: rgb(255, 255, 255, .2);
+}
+
 /* Main Section Classes */
 .mainSection{
     display: flex;
     flex-direction: row;
     margin-top: 80px;
-    margin: 80px 120px 0;
+    margin: 80px 150px 0;
     padding: 20px;
     border-radius: 2%; 
-    background-color: #ade8f4;
+    background-color: #d8e5fa;
     gap: 24px;
 }
 
@@ -152,11 +157,11 @@ nav {
 }
 
 .btn{
-    color: #d5f3f9;
+    color: #f0eafc;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 0;
     border-radius: 15%;
-    padding: 20px 12px;
+    padding: 20px 20px;
     background-color: #0096c7;
     cursor: pointer;
 }
@@ -165,10 +170,23 @@ nav {
     background-color: #023e8a;
 }
 
+.buttonIconWrapper{
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    overflow: visible;
+}
+
+.cartBtn{
+    display: flex;
+    flex-direction: column;
+}
+
 .mainBtn{
-    width: 200px;
-    height: 200px;
-    font-size: 2rem;
+    width: 140px;
+    height: 140px;
+    font-size: 1.5rem;
     font-weight: 600;
     background-color: rgb(247, 92, 20);
     
@@ -177,7 +195,6 @@ nav {
 .mainBtn:hover{
     background-color: rgb(202, 65, 2);
 }
-
 
 
 
@@ -275,6 +292,11 @@ nav {
     height: 100px;
     overflow: hidden;
     border-radius: 20%;
+    border: 2px rgb(0, 0, 0, 0) solid;
+}
+
+.relatedImageWrapper:hover{
+    border: #03045e 2px solid;
 }
 
 .relatedImage{
@@ -308,6 +330,11 @@ nav {
     .logoFooter{
         height: 160px;
         width: 160px;
+    }
+
+    .fa-brands{
+        margin: 0 8px;
+        font-size: 20px;
     }
 
     .footerProduct{
