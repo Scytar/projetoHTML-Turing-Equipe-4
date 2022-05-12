@@ -30,7 +30,7 @@ p, h3, h4 {
 }
 
 nav {
-    width: 400px;
+    width: 500px;
     padding-right: 35px;
     display: flex;
     justify-content: space-around;
@@ -40,7 +40,8 @@ nav {
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: #d5f3f9;
+    color: #f9d5d5;
+   
 }
 
 
