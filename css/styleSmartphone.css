@@ -161,6 +161,10 @@ nav {
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: #023e8a;
+}
+
 .mainBtn{
     width: 200px;
     height: 200px;
@@ -169,6 +173,9 @@ nav {
     background-color: rgb(247, 92, 20);
     
     cursor: pointer;
+}
+.mainBtn:hover{
+    background-color: rgb(202, 65, 2);
 }
 
 
