@@ -263,6 +263,18 @@ nav {
     color: #03045e;
 }
 
+.relatedImageWrapper{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+.relatedImage{
+    width: 100px;
+    height: 100px;
+}
+
 .relatedWrapper{
     display: flex;
     justify-content: center;
