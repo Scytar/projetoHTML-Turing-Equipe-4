@@ -30,7 +30,7 @@ p, h3, h4 {
 }
 
 nav {
-    width: 400px;
+    width: 500px;
     padding-right: 35px;
     display: flex;
     justify-content: space-around;
@@ -211,6 +211,8 @@ input:focus {
     font-size: 11px;
 }
 
+
+
 /*=============================== FOOTER ===============================*/
 
 footer {
@@ -263,9 +265,11 @@ footer {
 }
 
 .strip-bottom .tagA {
-    width: 150px;
+    width: 250px;
     color: #196c88;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
+
+
